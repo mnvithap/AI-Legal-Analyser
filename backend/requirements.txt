@@ -1,8 +1,7 @@
 fastapi==0.95.2
 uvicorn==0.22.0
 transformers==4.36.0
-torch==2.1.2
---extra-index-url https://download.pytorch.org/whl/cpu
+torch
 python-multipart==0.0.6
 python-docx==0.8.11
 pymupdf==1.23.7
