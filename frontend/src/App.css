@@ -1447,7 +1447,7 @@ button.px-6.py-3.bg-green-600.text-white.rounded-lg.shadow.hover\:bg-green-700:a
   color: #343a40; /* Consistent color for selected state */
 }
 
-//* Completely hide sidebar scrollbar */
+/* Completely hide sidebar scrollbar */
 
 /* Chrome, Safari, Edge */
 .sidebar::-webkit-scrollbar {

@@ -1,3 +1,9 @@
+# Ignore backend virtual environments
+backend/d_venv/
+backend/venv/
+d_venv/
+venv/
+
 # Python
 venv/
 __pycache__/
