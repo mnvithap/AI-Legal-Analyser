@@ -13,7 +13,10 @@ class AdvancedRiskEngine:
     """
     def __init__(self, db_session=None):
         self.db = db_session
-        self.nlp = spacy.load("en_core_web_sm")
+        
+        self.nlp = spacy.blank("en")
+
+
         self.statute_cache = self._load_statutes()
 
         # QA pipeline for contextual statute reference extraction
