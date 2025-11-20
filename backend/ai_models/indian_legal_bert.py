@@ -1,4 +1,5 @@
-from transformers import AutoTokenizer, AutoModelForSequenceClassification, TrainingArguments, Trainer
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
 from transformers import DataCollatorWithPadding, pipeline
 import torch
 import pandas as pd
